@@ -5,8 +5,8 @@ from pyrogram import Client
 async def main():
     print("- Jmthon Session Pyrogram -")
     print("\n---------------------------\n")
-    api_id = int(input("APP ID: "))
-    api_hash = input("API HASH: ")
+    api_id = int(input("15192591"))
+    api_hash = input("30685a4416b114f1b91921c7b30ca74a")
     print("\n---------------------------\n")
     async with Client(":memory:", api_id=api_id, api_hash=api_hash) as app:
         await app.send_message(
